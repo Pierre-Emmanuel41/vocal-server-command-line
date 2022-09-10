@@ -15,8 +15,16 @@
 			<value>Starting Vocal server command line</value>
 		</message>
 		<message>
+			<code>VOCAL_SERVER_CL__STARTING__IGNORING_ARGUMENTS__NOT_ENOUGH_ARGUMENT</code>
+			<value>Ignoring arguments, arguments expected: "&lt;name&gt; &lt;port number&gt; | [&lt;to_everyone&gt;|&lt;to_no_one&gt;]"</value>
+		</message>
+		<message>
 			<code>VOCAL_SERVER_CL__STOPPING</code>
 			<value>Stopping Vocal server command line</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__NAME__COMPLETION</code>
+			<value>&lt;name&gt;</value>
 		</message>
 		<message>
 			<code>VOCAL_SERVER_CL__PORT__COMPLETION</code>
@@ -25,6 +33,30 @@
 		<message>
 			<code>VOCAL_SERVER_CL__ROOT__EXPLANATION</code>
 			<value>To perform changes on a vocal server</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__OPEN__EXPLANATION</code>
+			<value>To open a vocal server</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__OPEN__SERVER_NAME_IS_MISSING</code>
+			<value>Cannot open a vocal server, the server name is missing</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__OPEN__SERVER_PORT_IS_MISSING</code>
+			<value>Cannot open a vocal server, the server port number is missing</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__OPEN__SERVER_PORT_BAD_FORMAT</code>
+			<value>Cannot open a vocal server, the server port number has a bad format, expected an integer</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__OPEN__SERVER_PORT_OUT_OF_RANGE</code>
+			<value>Cannot open a vocal server, the server port number must be in range [0, 65535]</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__OPEN__SERVER_OPENED</code>
+			<value>Server %s has been opened on port %s</value>
 		</message>
 	</messages>
 </dictionary>

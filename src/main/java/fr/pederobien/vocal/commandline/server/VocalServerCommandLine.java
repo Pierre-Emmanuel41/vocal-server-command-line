@@ -33,10 +33,28 @@ public class VocalServerCommandLine {
 
 		builder.onStart((root, arguments) -> {
 			commandLine.send(EVocalServerCode.VOCAL_SERVER_CL__STARTING);
+			if (arguments.length == 0)
+				return true;
+
+			if (arguments.length < 2) {
+				commandLine.send(EVocalServerCode.VOCAL_SERVER_CL__STARTING__IGNORING_ARGUMENTS__NOT_ENOUGH_ARGUMENT);
+				return true;
+			}
+
+			String[] commands = new String[arguments.length + 1];
+			commands[0] = "open";
+			for (int i = 0; i < arguments.length; i++)
+				commands[i + 1] = arguments[i];
+
+			root.onCommand(commands);
 			return true;
 		});
 
-		builder.onStop(root -> commandLine.send(EVocalServerCode.VOCAL_SERVER_CL__STOPPING));
+		builder.onStop(root -> {
+			if (tree.getServer() != null)
+				tree.getServer().close();
+			commandLine.send(EVocalServerCode.VOCAL_SERVER_CL__STOPPING);
+		});
 
 		commandLine = builder.build(tree.getRoot(), args);
 		commandLine.start();

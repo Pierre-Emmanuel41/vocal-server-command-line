@@ -12,6 +12,10 @@
 			<value>Démarrage de Vocal server command line</value>
 		</message>
 		<message>
+			<code>VOCAL_SERVER_CL__STARTING__IGNORING_ARGUMENTS__NOT_ENOUGH_ARGUMENT</code>
+			<value>Arguments non pris en compte, arguments attendus : "&lt;nom&gt; &lt;numéro de port&gt; | [&lt;to_everyone&gt;|&lt;to_no_one&gt;]"</value>
+		</message>
+		<message>
 			<code>VOCAL_SERVER_CL__STOPPING</code>
 			<value>Arrêt de vocal server command line</value>
 		</message>
@@ -22,6 +26,30 @@
 		<message>
 			<code>VOCAL_SERVER_CL__ROOT__EXPLANATION</code>
 			<value>Pour effectuer des changements sur un serveur vocal</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__OPEN__EXPLANATION</code>
+			<value>Pour ouvrir un serveur vocal</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__OPEN__SERVER_NAME_IS_MISSING</code>
+			<value>Impossible d'ouvrir un serveur vocal, Le nom du serveur est manquant</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__OPEN__SERVER_PORT_IS_MISSING</code>
+			<value>Impossible d'ouvrir un serveur vocal, le numéro de port du serveur est manquant</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__OPEN__SERVER_PORT_BAD_FORMAT</code>
+			<value>Impossible d'ouvrir un serveur vocal, Le numéro de port du seveur a un mauvais format, une valeur entière est attendue</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__OPEN__SERVER_PORT_OUT_OF_RANGE</code>
+			<value>Impossible d'ouvrir un serveur vocal, le numéro de port du serveur doit être compris dans l'intervalle [0, 65535]</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__OPEN__SERVER_OPENED</code>
+			<value>Le serveur %s a été ouvert sur le port %s</value>
 		</message>
 	</messages>
 </dictionary>
