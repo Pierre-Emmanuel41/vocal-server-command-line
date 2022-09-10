@@ -1,0 +1,10 @@
+[submodule "command-line"]
+	path = command-line
+	url = http://github.com/Pierre-Emmanuel41/command-line.git
+	update = rebase
+	branch = 1.0-SNAPSHOT
+[submodule "vocal-server"]
+	path = vocal-server
+	url = http://github.com/Pierre-Emmanuel41/vocal-server.git
+	update = rebase
+	branch = 1.0-SNAPSHOT
