@@ -42,6 +42,12 @@ public enum EVocalServerCode implements ICode {
 	// Code when a vocal server is opened
 	VOCAL_SERVER_CL__OPEN__SERVER_OPENED,
 
+	// Code for the "close" command ---------------------------------------------------------------
+	VOCAL_SERVER_CL__CLOSE__EXPLANATION,
+
+	// Code when the vocal server is closed
+	VOCAL_SERVER_CL__CLOSE__SERVER_CLOSED,
+
 	;
 
 	@Override

@@ -16,6 +16,7 @@ public class VocalServerCommandTree {
 	private IVocalServer server;
 	private ICommandRootNode<ICode> root;
 	private OpenServerNode openNode;
+	private CloseServerNode closeNode;
 
 	public VocalServerCommandTree() {
 		Consumer<INode<ICode>> displayer = node -> {
@@ -26,6 +27,7 @@ public class VocalServerCommandTree {
 
 		root = new CommandRootNode<ICode>("vocal", EVocalServerCode.VOCAL_SERVER_CL__ROOT__EXPLANATION, () -> true, displayer);
 		root.add(openNode = new OpenServerNode(this));
+		root.add(closeNode = new CloseServerNode(this));
 	}
 
 	/**
@@ -52,9 +54,16 @@ public class VocalServerCommandTree {
 	}
 
 	/**
-	 * @return The node that open a server.
+	 * @return The node that open a vocal server.
 	 */
 	public OpenServerNode getOpenNode() {
 		return openNode;
+	}
+
+	/**
+	 * @return The node that close a vocal server.
+	 */
+	public CloseServerNode getCloseNode() {
+		return closeNode;
 	}
 }

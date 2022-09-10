@@ -8,6 +8,7 @@ import fr.pederobien.dictionary.event.DictionaryEvent;
 import fr.pederobien.utils.event.EventLogger;
 import fr.pederobien.vocal.commandline.server.impl.EVocalServerCode;
 import fr.pederobien.vocal.commandline.server.impl.VocalServerCommandTree;
+import fr.pederobien.vocal.server.event.VocalPlayerSpeakEvent;
 
 public class VocalServerCommandLine {
 	private static final String DEV_DICTIONARY_FOLDER = "src/main/resources/dictionaries/";
@@ -25,6 +26,7 @@ public class VocalServerCommandLine {
 			EventLogger.instance().ignore(DictionaryEvent.class);
 			EventLogger.instance().ignore(ConnectionEvent.class);
 			EventLogger.instance().ignore(NodeEvent.class);
+			EventLogger.instance().ignore(VocalPlayerSpeakEvent.class);
 
 			String dictionaryFolder = commandLine.getEnvironment() == CommandLine.DEVELOPMENT_ENVIRONMENT ? DEV_DICTIONARY_FOLDER : PROD_DICTIONARY_FOLDER;
 			commandLine.registerDictionaries(dictionaryFolder, new String[] { "English.xml", "French.xml" });

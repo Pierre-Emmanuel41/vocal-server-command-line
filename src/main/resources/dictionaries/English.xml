@@ -58,5 +58,13 @@
 			<code>VOCAL_SERVER_CL__OPEN__SERVER_OPENED</code>
 			<value>Server %s has been opened on port %s</value>
 		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__CLOSE__EXPLANATION</code>
+			<value>To close a vocal server</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__CLOSE__SERVER_CLOSED</code>
+			<value>Server %s has been closed</value>
+		</message>
 	</messages>
 </dictionary>
