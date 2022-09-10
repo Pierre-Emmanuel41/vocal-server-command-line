@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+	<version>1.0</version>
+	<locales>
+		<locale>fr</locale>
+		<locale>fr-FR</locale>
+		<locale>fr-CA</locale>
+	</locales>
+	<messages>
+		<message>
+			<code>VOCAL_SERVER_CL__STARTING</code>
+			<value>Démarrage de Vocal server command line</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__STOPPING</code>
+			<value>Arrêt de vocal server command line</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__PORT__COMPLETION</code>
+			<value>&lt;port&gt;</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__ROOT__EXPLANATION</code>
+			<value>Pour effectuer des changements sur un serveur vocal</value>
+		</message>
+	</messages>
+</dictionary>
