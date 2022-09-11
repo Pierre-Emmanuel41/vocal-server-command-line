@@ -66,5 +66,25 @@
 			<code>VOCAL_SERVER_CL__CLOSE__SERVER_CLOSED</code>
 			<value>Server %s has been closed</value>
 		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__TEST__EXPLANATION</code>
+			<value>To enable or disable the test mode</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__TEST__TEST_STATUS_IS_MISSING</code>
+			<value>Cannot update the test mode of %s, the test status is missing</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__TEST__TEST_STATUS_BAD_FORMAT</code>
+			<value>Cannot update the test mode of %s, the test status has a bad format, expected a boolean</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__TEST__TEST_MODE_ACTIVATED</code>
+			<value>Server %s is in test mode</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__TEST__TEST_MODE_DEACTIVATED</code>
+			<value>Server %s is no more in test mode</value>
+		</message>
 	</messages>
 </dictionary>

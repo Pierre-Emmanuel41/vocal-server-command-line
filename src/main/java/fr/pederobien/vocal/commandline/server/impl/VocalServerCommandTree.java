@@ -17,6 +17,7 @@ public class VocalServerCommandTree {
 	private ICommandRootNode<ICode> root;
 	private OpenServerNode openNode;
 	private CloseServerNode closeNode;
+	private TestNode testNode;
 
 	public VocalServerCommandTree() {
 		Consumer<INode<ICode>> displayer = node -> {
@@ -28,6 +29,7 @@ public class VocalServerCommandTree {
 		root = new CommandRootNode<ICode>("vocal", EVocalServerCode.VOCAL_SERVER_CL__ROOT__EXPLANATION, () -> true, displayer);
 		root.add(openNode = new OpenServerNode(this));
 		root.add(closeNode = new CloseServerNode(this));
+		root.add(testNode = new TestNode(() -> getServer()));
 	}
 
 	/**
@@ -65,5 +67,12 @@ public class VocalServerCommandTree {
 	 */
 	public CloseServerNode getCloseNode() {
 		return closeNode;
+	}
+
+	/**
+	 * @return The node that enable or disable the test mode of a vocal server.
+	 */
+	public TestNode getTestNode() {
+		return testNode;
 	}
 }

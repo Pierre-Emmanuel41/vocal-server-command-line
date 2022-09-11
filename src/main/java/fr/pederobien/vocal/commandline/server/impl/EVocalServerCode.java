@@ -48,6 +48,21 @@ public enum EVocalServerCode implements ICode {
 	// Code when the vocal server is closed
 	VOCAL_SERVER_CL__CLOSE__SERVER_CLOSED,
 
+	// Code for the "test" command ----------------------------------------------------------------
+	VOCAL_SERVER_CL__TEST__EXPLANATION,
+
+	// Code when the test status is missing
+	VOCAL_SERVER_CL__TEST__TEST_STATUS_IS_MISSING,
+
+	// Code when the test status has a bad format
+	VOCAL_SERVER_CL__TEST__TEST_STATUS_BAD_FORMAT,
+
+	// Code when the test mode is activated
+	VOCAL_SERVER_CL__TEST__TEST_MODE_ACTIVATED,
+
+	// Code when the test mode is deactivated
+	VOCAL_SERVER_CL__TEST__TEST_MODE_DEACTIVATED,
+
 	;
 
 	@Override
