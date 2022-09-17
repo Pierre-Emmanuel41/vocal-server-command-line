@@ -171,5 +171,33 @@
 			<code>VOCAL_SERVER_CL__SET__MUTE__PLAYER_NOT_MUTE</code>
 			<value>Le joueur %s n'est désormais plus muet</value>
 		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__DEAFEN__EXPLANATION</code>
+			<value>Pour mettre à jour le statut sourd d'un joueur</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__DEAFEN__NAME_IS_MISSING</code>
+			<value>Impossible de mettre à jour le statut sourd d'un joueur, le nom du joueur est manquant</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__DEAFEN__PLAYER_DOES_NOT_EXIST</code>
+			<value>Impossible de mettre à jour le statut sourd de %s, le joueur n'existe pas</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__DEAFEN__DEAFEN_STATUS_IS_MISSING</code>
+			<value>Impossible de mettre à jour le statut sourd de %s, le status sourd est manquant</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__DEAFEN__DEAFEN_STATUS_BAD_FORMAT</code>
+			<value>Impossible de mettre à jour le statut sourd de %s, le statut sourd a un mauvais format, une valeur booléenne est attendue</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__DEAFEN__PLAYER_DEAFEN</code>
+			<value>Le joueur %s est sourd</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__DEAFEN__PLAYER_NOT_DEAFEN</code>
+			<value>Le joueur %s n'est désormais plus sourd</value>
+		</message>
 	</messages>
 </dictionary>

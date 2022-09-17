@@ -178,5 +178,33 @@
 			<code>VOCAL_SERVER_CL__SET__MUTE__PLAYER_NOT_MUTE</code>
 			<value>Player %s is no more mute</value>
 		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__DEAFEN__EXPLANATION</code>
+			<value>To update the deafen status of a player</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__DEAFEN__NAME_IS_MISSING</code>
+			<value>Cannot update the deafen status of a player, the player name is missing</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__DEAFEN__PLAYER_DOES_NOT_EXIST</code>
+			<value>Cannot update the deafen status of %s, the player does not exist</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__DEAFEN__DEAFEN_STATUS_IS_MISSING</code>
+			<value>Cannot update the deafen status of %s, the deafen status is missing</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__DEAFEN__DEAFEN_STATUS_BAD_FORMAT</code>
+			<value>Cannot update the deafen status of %s, the deafen status has a bad format, expected a boolean</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__DEAFEN__PLAYER_DEAFEN</code>
+			<value>Player %s is deafen</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__DEAFEN__PLAYER_NOT_DEAFEN</code>
+			<value>Player %s is no more deafen</value>
+		</message>
 	</messages>
 </dictionary>

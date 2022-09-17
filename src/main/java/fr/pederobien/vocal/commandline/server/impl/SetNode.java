@@ -6,6 +6,7 @@ import fr.pederobien.vocal.server.interfaces.IVocalServer;
 
 public class SetNode extends VocalServerNode {
 	private SetMuteNode muteNode;
+	private SetDeafenNode deafenNode;
 
 	/**
 	 * Creates a node in order to update the characteristics of a player.
@@ -16,6 +17,7 @@ public class SetNode extends VocalServerNode {
 		super(server, "set", EVocalServerCode.VOCAL_SERVER_CL__SET__EXPLANATION, s -> s != null);
 
 		add(muteNode = new SetMuteNode(server));
+		add(deafenNode = new SetDeafenNode(server));
 	}
 
 	/**
@@ -23,5 +25,12 @@ public class SetNode extends VocalServerNode {
 	 */
 	public SetMuteNode getMuteNode() {
 		return muteNode;
+	}
+
+	/**
+	 * @return The node that update the deafen status of a player.
+	 */
+	public SetDeafenNode getDeafenNode() {
+		return deafenNode;
 	}
 }
