@@ -63,6 +63,51 @@ public enum EVocalServerCode implements ICode {
 	// Code when the test mode is deactivated
 	VOCAL_SERVER_CL__TEST__TEST_MODE_DEACTIVATED,
 
+	// Code for the "details" command -------------------------------------------------------------
+	VOCAL_SERVER_CL__DETAILS__EXPLANATION,
+
+	// Code for the object's name
+	VOCAL_SERVER_CL__DETAILS__NAME,
+
+	// Code for the server port number
+	VOCAL_SERVER_CL__DETAILS__PORT_NUMBER,
+
+	// Code for the server port number
+	VOCAL_SERVER_CL__DETAILS__SPEAK_BEHAVIOR,
+
+	// Code for the players section
+	VOCAL_SERVER_CL__DETAILS__PLAYERS,
+
+	// Code for the player mute status
+	VOCAL_SERVER_CL__DETAILS__PLAYER_MUTE_STATUS,
+
+	// Code when the player is mute
+	VOCAL_SERVER_CL__DETAILS__PLAYER_MUTE,
+
+	// Code when the player is not mute
+	VOCAL_SERVER_CL__DETAILS__PLAYER_NOT_MUTE,
+
+	// Code for the player's mute by status
+	VOCAL_SERVER_CL__DETAILS__PLAYER_MUTE_BY,
+
+	// Code for the player deafen status
+	VOCAL_SERVER_CL__DETAILS__PLAYER_DEAFEN_STATUS,
+
+	// Code when the player is deafen
+	VOCAL_SERVER_CL__DETAILS__PLAYER_DEAFEN,
+
+	// Code when the player is not deafen
+	VOCAL_SERVER_CL__DETAILS__PLAYER_NOT_DEAFEN,
+
+	// Code for the player's TCP address
+	VOCAL_SERVER_CL__DETAILS__PLAYER_TCP_ADDRESS,
+
+	// Code for the player's UDP address
+	VOCAL_SERVER_CL__DETAILS__PLAYER_UDP_ADDRESS,
+
+	// Code for the server configuration
+	VOCAL_SERVER_CL__DETAILS__SERVER_CONFIGURATION,
+
 	;
 
 	@Override

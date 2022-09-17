@@ -86,5 +86,65 @@
 			<code>VOCAL_SERVER_CL__TEST__TEST_MODE_DEACTIVATED</code>
 			<value>Server %s is no more in test mode</value>
 		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__EXPLANATION</code>
+			<value>To display the characteristics of a vocal server</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__NAME</code>
+			<value>Name: %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PORT_NUMBER</code>
+			<value>Port number: %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__SPEAK_BEHAVIOR</code>
+			<value>Speak behavior: %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYERS</code>
+			<value>Players:</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_MUTE</code>
+			<value>Mute</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_NOT_MUTE</code>
+			<value>Not mute</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_MUTE_STATUS</code>
+			<value>Mute status: %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_MUTE_BY</code>
+			<value>Mute by status: %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_DEAFEN</code>
+			<value>Deafen</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_NOT_DEAFEN</code>
+			<value>Not deafen</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_DEAFEN_STATUS</code>
+			<value>Deafen status: %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_TCP_ADDRESS</code>
+			<value>TCP address: %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_UDP_ADDRESS</code>
+			<value>UDP address: %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__SERVER_CONFIGURATION</code>
+			<value>Server configuration:%n%s</value>
+		</message>
 	</messages>
 </dictionary>

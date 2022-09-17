@@ -18,6 +18,7 @@ public class VocalServerCommandTree {
 	private OpenServerNode openNode;
 	private CloseServerNode closeNode;
 	private TestNode testNode;
+	private DetailsNode detailsNode;
 
 	public VocalServerCommandTree() {
 		Consumer<INode<ICode>> displayer = node -> {
@@ -30,6 +31,7 @@ public class VocalServerCommandTree {
 		root.add(openNode = new OpenServerNode(this));
 		root.add(closeNode = new CloseServerNode(this));
 		root.add(testNode = new TestNode(() -> getServer()));
+		root.add(detailsNode = new DetailsNode(() -> getServer()));
 	}
 
 	/**
@@ -74,5 +76,12 @@ public class VocalServerCommandTree {
 	 */
 	public TestNode getTestNode() {
 		return testNode;
+	}
+
+	/**
+	 * @return The node to display the characteristics of a vocal server.
+	 */
+	public DetailsNode getDetailsNode() {
+		return detailsNode;
 	}
 }

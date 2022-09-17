@@ -79,5 +79,65 @@
 			<code>VOCAL_SERVER_CL__TEST__TEST_MODE_DEACTIVATED</code>
 			<value>Le serveur %s n'est plus en mode test</value>
 		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__EXPLANATION</code>
+			<value>Pour afficher les caractéristiques d'un serveur vocal</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__NAME</code>
+			<value>Nom : %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PORT_NUMBER</code>
+			<value>Numéro de port : %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__SPEAK_BEHAVIOR</code>
+			<value>Comportement vocal : %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYERS</code>
+			<value>Joueurs :</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_MUTE</code>
+			<value>Muet</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_NOT_MUTE</code>
+			<value>Pas muet</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_MUTE_STATUS</code>
+			<value>Statut muet : %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_MUTE_BY</code>
+			<value>Muet pour : %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_DEAFEN</code>
+			<value>Sourd</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_NOT_DEAFEN</code>
+			<value>Pas sourd</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_DEAFEN_STATUS</code>
+			<value>Status sourd : %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_TCP_ADDRESS</code>
+			<value>Adresse TCP : %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__PLAYER_UDP_ADDRESS</code>
+			<value>Address UDP : %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__DETAILS__SERVER_CONFIGURATION</code>
+			<value>Configuration du serveur :%n%s</value>
+		</message>
 	</messages>
 </dictionary>
