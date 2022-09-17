@@ -19,6 +19,7 @@ public class VocalServerCommandTree {
 	private CloseServerNode closeNode;
 	private TestNode testNode;
 	private DetailsNode detailsNode;
+	private SetNode setNode;
 
 	public VocalServerCommandTree() {
 		Consumer<INode<ICode>> displayer = node -> {
@@ -32,6 +33,7 @@ public class VocalServerCommandTree {
 		root.add(closeNode = new CloseServerNode(this));
 		root.add(testNode = new TestNode(() -> getServer()));
 		root.add(detailsNode = new DetailsNode(() -> getServer()));
+		root.add(setNode = new SetNode(() -> getServer()));
 	}
 
 	/**
@@ -83,5 +85,12 @@ public class VocalServerCommandTree {
 	 */
 	public DetailsNode getDetailsNode() {
 		return detailsNode;
+	}
+
+	/**
+	 * @return The node that modify the characteristics of a player.
+	 */
+	public SetNode getSetNode() {
+		return setNode;
 	}
 }

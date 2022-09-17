@@ -139,5 +139,37 @@
 			<code>VOCAL_SERVER_CL__DETAILS__SERVER_CONFIGURATION</code>
 			<value>Configuration du serveur :%n%s</value>
 		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__EXPLANATION</code>
+			<value>Pour modifier les caractéristiques d'un joueur</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE__EXPLANATION</code>
+			<value>Pour mettre à jour le statut muet d'un joueur</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE__NAME_IS_MISSING</code>
+			<value>Impossible de mettre à jour le statut muet d'un joueur, le nom du joueur est manquant</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE__PLAYER_DOES_NOT_EXIST</code>
+			<value>Impossible de mettre à jour le statut muet de %s, le joueur n'existe pas</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE__MUTE_STATUS_IS_MISSING</code>
+			<value>Impossible de mettre à jour le statut muet de %s, le status muet est manquant</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE__MUTE_STATUS_BAD_FORMAT</code>
+			<value>Impossible de mettre à jour le statut muet de %s, le statut muet a un mauvais format, une valeur booléenne est attendue</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE__PLAYER_MUTE</code>
+			<value>Le joueur %s est muet</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE__PLAYER_NOT_MUTE</code>
+			<value>Le joueur %s n'est désormais plus muet</value>
+		</message>
 	</messages>
 </dictionary>

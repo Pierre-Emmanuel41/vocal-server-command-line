@@ -108,6 +108,30 @@ public enum EVocalServerCode implements ICode {
 	// Code for the server configuration
 	VOCAL_SERVER_CL__DETAILS__SERVER_CONFIGURATION,
 
+	// Code for the "set" command -----------------------------------------------------------------
+	VOCAL_SERVER_CL__SET__EXPLANATION,
+
+	// Code for the "set mute" command ------------------------------------------------------------
+	VOCAL_SERVER_CL__SET__MUTE__EXPLANATION,
+
+	// Code when the player name is missing
+	VOCAL_SERVER_CL__SET__MUTE__NAME_IS_MISSING,
+
+	// Code when the player does not exist
+	VOCAL_SERVER_CL__SET__MUTE__PLAYER_DOES_NOT_EXIST,
+
+	// Code when the mute status is missing
+	VOCAL_SERVER_CL__SET__MUTE__MUTE_STATUS_IS_MISSING,
+
+	// Code when the mute status has a bad format
+	VOCAL_SERVER_CL__SET__MUTE__MUTE_STATUS_BAD_FORMAT,
+
+	// Code when the player has been mute
+	VOCAL_SERVER_CL__SET__MUTE__PLAYER_MUTE,
+
+	// Code when the player has been unmute
+	VOCAL_SERVER_CL__SET__MUTE__PLAYER_NOT_MUTE,
+
 	;
 
 	@Override

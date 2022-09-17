@@ -146,5 +146,37 @@
 			<code>VOCAL_SERVER_CL__DETAILS__SERVER_CONFIGURATION</code>
 			<value>Server configuration:%n%s</value>
 		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__EXPLANATION</code>
+			<value>To modify the characteristics of a player</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE__EXPLANATION</code>
+			<value>To update the mute status of a player</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE__NAME_IS_MISSING</code>
+			<value>Cannot update the mute status of a player, the player name is missing</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE__PLAYER_DOES_NOT_EXIST</code>
+			<value>Cannot update the mute status of %s, the player does not exist</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE__MUTE_STATUS_IS_MISSING</code>
+			<value>Cannot update the mute status of %s, the mute status is missing</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE__MUTE_STATUS_BAD_FORMAT</code>
+			<value>Cannot update the mute status of %s, the mute status has a bad format, expected a boolean</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE__PLAYER_MUTE</code>
+			<value>Player %s is mute</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE__PLAYER_NOT_MUTE</code>
+			<value>Player %s is no more mute</value>
+		</message>
 	</messages>
 </dictionary>
