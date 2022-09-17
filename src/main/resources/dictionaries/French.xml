@@ -199,5 +199,37 @@
 			<code>VOCAL_SERVER_CL__SET__DEAFEN__PLAYER_NOT_DEAFEN</code>
 			<value>Le joueur %s n'est désormais plus sourd</value>
 		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE_BY__EXPLANATION</code>
+			<value>Pour rendre muet un joueur pour d'autres joueurs</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE_BY__NAME_IS_MISSING</code>
+			<value>Impossible de rendre muet un joueur pour d'autres joueurs, le nom du joueur cible est manquant</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE_BY__PLAYER_TARGET_DOES_NOT_EXIST</code>
+			<value>Impossible de rendre muet %s pour d'autres joueurs, le joueur cible n'existe pas</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE_BY__MUTE_STATUS_IS_MISSING</code>
+			<value>Impossible de rendre muet %s pour d'autres joueurs, le status muet est manquant</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE_BY__MUTE_STATUS_BAD_FORMAT</code>
+			<value>Impossible de rendre muet %s pour d'autres joueurs, le statut muet a un mauvais format, une valeur booléenne est attendue</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE_BY__PLAYER_SOURCE_DOES_NOT_EXIST</code>
+			<value>Impossible de rendre muet %s pour %s, le joueur source n'existe pas</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE_BY__PLAYER_MUTE</code>
+			<value>Le joueur %s est muet pour %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE_BY__PLAYER_NOT_MUTE</code>
+			<value>Le joueur %s n'est désormais plus muet pour %s</value>
+		</message>
 	</messages>
 </dictionary>

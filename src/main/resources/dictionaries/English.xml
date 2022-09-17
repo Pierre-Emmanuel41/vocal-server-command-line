@@ -206,5 +206,37 @@
 			<code>VOCAL_SERVER_CL__SET__DEAFEN__PLAYER_NOT_DEAFEN</code>
 			<value>Player %s is no more deafen</value>
 		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE_BY__EXPLANATION</code>
+			<value>To mute a player for one or more players</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE_BY__NAME_IS_MISSING</code>
+			<value>Cannot mute a player for other players, the target player name is missing</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE_BY__PLAYER_TARGET_DOES_NOT_EXIST</code>
+			<value>Cannot mute %s for other players, the target player does not exist</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE_BY__MUTE_STATUS_IS_MISSING</code>
+			<value>Cannot mute %s for other players, the mute status is missing</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE_BY__MUTE_STATUS_BAD_FORMAT</code>
+			<value>Cannot mute %s for other players, the mute status has a bad format, expected a boolean value</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE_BY__PLAYER_SOURCE_DOES_NOT_EXIST</code>
+			<value>Cannot mute %s for %s, the source player does not exist</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE_BY__PLAYER_MUTE</code>
+			<value>Player %s has been mute for %s</value>
+		</message>
+		<message>
+			<code>VOCAL_SERVER_CL__SET__MUTE_BY__PLAYER_NOT_MUTE</code>
+			<value>Player %s is no more mute for %s</value>
+		</message>
 	</messages>
 </dictionary>

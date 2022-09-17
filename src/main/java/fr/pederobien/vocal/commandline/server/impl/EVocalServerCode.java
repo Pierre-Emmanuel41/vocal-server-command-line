@@ -153,6 +153,30 @@ public enum EVocalServerCode implements ICode {
 	// Code when the player has been undeafen
 	VOCAL_SERVER_CL__SET__DEAFEN__PLAYER_NOT_DEAFEN,
 
+	// Code for the "set muteby" command ------------------------------------------------------------
+	VOCAL_SERVER_CL__SET__MUTE_BY__EXPLANATION,
+
+	// Code when the name of the target player is missing
+	VOCAL_SERVER_CL__SET__MUTE_BY__NAME_IS_MISSING,
+
+	// Code when the target player does not exist
+	VOCAL_SERVER_CL__SET__MUTE_BY__PLAYER_TARGET_DOES_NOT_EXIST,
+
+	// Code when the mute status is missing
+	VOCAL_SERVER_CL__SET__MUTE_BY__MUTE_STATUS_IS_MISSING,
+
+	// Code when the mute status has a bad format
+	VOCAL_SERVER_CL__SET__MUTE_BY__MUTE_STATUS_BAD_FORMAT,
+
+	// Code when the mute status has a bad format
+	VOCAL_SERVER_CL__SET__MUTE_BY__PLAYER_SOURCE_DOES_NOT_EXIST,
+
+	// Code when the target player has been mute by the source players
+	VOCAL_SERVER_CL__SET__MUTE_BY__PLAYER_MUTE,
+
+	// Code when the target player has been unmute by the source players
+	VOCAL_SERVER_CL__SET__MUTE_BY__PLAYER_NOT_MUTE,
+
 	;
 
 	@Override
