@@ -25,7 +25,7 @@ public class OpenServerNode extends VocalServerNode {
 		case 1:
 			return asList(getMessage(EVocalServerCode.VOCAL_SERVER_CL__NAME__COMPLETION));
 		case 2:
-			Predicate<String> isNameValid = name -> name.equals("");
+			Predicate<String> isNameValid = name -> !name.equals("");
 			return check(args[0], isNameValid, asList(getMessage(EVocalServerCode.VOCAL_SERVER_CL__PORT__COMPLETION)));
 		case 3:
 			Predicate<String> isPortValid = port -> {
