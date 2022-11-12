@@ -1,6 +1,6 @@
 package fr.pederobien.vocal.commandline.server.impl;
 
-import fr.pederobien.commandline.ICode;
+import fr.pederobien.dictionary.interfaces.ICode;
 
 public enum EVocalServerCode implements ICode {
 
